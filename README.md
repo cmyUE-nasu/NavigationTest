@@ -8,6 +8,7 @@ Asetts/ に以下のアセットを配置してください。
 [Standard Assets](https://assetstore.unity.com/packages/essentials/asset-packs/standard-assets-for-unity-2018-4-32351)  
 
 # 仕様  
+## スクリプトの説明
 ### MoveToTarget(Script)について  
 このスクリプトをアタッチするためには、ThirdPersonCharactorとNavMeshAgentがアタッチされている必要があります。  
 このスクリプトは、NavMeshAgentが求めた経路の情報をThirdPersonCharactorに橋渡しする役割を担っています。  
@@ -19,7 +20,26 @@ Asetts/ に以下のアセットを配置してください。
 | Animation | 移動に合わせてアニメーションを再生するかです。 |
 | Speed | 移動速度を設定します。初期値は1.5です。 |
 
-<img alt="MoveToTargetの依存関係" src="./ReadmeImage/DependencyOfMoveToTarget.PNG" title="MoveToTargetの依存関係" width="400"/>
+MoveToTargetの依存関係  
+<img alt="MoveToTargetの依存関係" src="./ReadmeImage/DependencyOfMoveToTarget.PNG" title="MoveToTargetの依存関係" width="526" height="595"/>
+
+## シーンの説明
+### unitychan
+事前にBakeされたNavMesh内をDestinationに向かって、「自分以外のNavMeshAgentがアタッチされたオブジェクト」や、  
+「NavMeshObstacleがアタッチされたオブジェクト」を避けながら歩いていきます。  
+初期状態ではシーン内の *Destination* に向かって歩いていきます。
+
+### operableUnitychan
+NavMeshObstacleがアタッチされたUnityちゃんです。  
+WASDまたは矢印キーで操作可能です。  
+
+### Obstacle
+NavigationAreaをNotWalkableに設定されたオブジェクトです。
+
+### Destination
+unitychanに設定されている目的地となるオブジェクトです。
+
+
 
 # ライセンス
 ![UCL](./UnityChanLicenseLogo/UnityChanLicenseLogo/png/Light_Frame.png)  
