@@ -6,9 +6,13 @@ using UnityEngine.AI;
 using UnityStandardAssets.Characters.ThirdPerson;
 
 /*
+ * destinationにセットされたGameObjectに向かって、
+ * このスクリプトがアタッチされたGameObjectを移動させるスクリプトです。
+ * アニメーションを再生させる機能も付いています。
+ * 
  * このスクリプトをアタッチするには、
- * NavMeshAgentとThirdPersonCharactorがアタッチされている必要がある。
- * NavMeshAgentは経路探索のため、ThirdPersonCharactorはオブジェクトを移動させるために必要
+ * NavMeshAgentとThirdPersonCharactorがアタッチされている必要があります。
+ * NavMeshAgentは経路探索のため、ThirdPersonCharactorはオブジェクトを移動させるために必要です。
  */
 [RequireComponent(typeof(NavMeshAgent), typeof(ThirdPersonCharacter))]
 public class MoveToTarget : MonoBehaviour {
