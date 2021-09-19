@@ -21,7 +21,7 @@ Asetts/ に以下のアセットを配置してください。
 | Speed | 移動速度を設定します。初期値は1.5です。 |
 
 MoveToTargetの依存関係  
-<img alt="MoveToTargetの依存関係" src="./ReadmeImage/DependencyOfMoveToTarget.PNG" title="MoveToTargetの依存関係" width="526" height="595"/>
+<img alt="MoveToTargetの依存関係" src="./ReadmeImage/DependencyOfMoveToTarget.PNG" title="MoveToTargetの依存関係" width="526"/>
 
 ## シーンの説明
 ### unitychan
