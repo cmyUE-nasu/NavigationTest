@@ -8,5 +8,5 @@ Asetts/ に以下のアセットを配置してください。
 [Standard Assets](https://assetstore.unity.com/packages/essentials/asset-packs/standard-assets-for-unity-2018-4-32351)  
 
 # ライセンス
-![UCL](./UnityChanLicenseLogo/UnityChanLicenseLogo/svg/Light_Frame.svg)  
+![UCL](./UnityChanLicenseLogo/UnityChanLicenseLogo/png/Light_Frame.png)  
 このプロジェクトは、[ユニティちゃんライセンス条項](https://unity-chan.com/contents/license_jp/) の元に開発されています。
